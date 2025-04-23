@@ -49,6 +49,7 @@ public class Tabuada {
 			double produto = multiplicando * minimoMultiplicador;
 			tabuada[i] = multiplicando + " x " + minimoMultiplicador + " = " + produto;
 			i++;
+			minimoMultiplicador++;
 		}
 		
 		return tabuada;
